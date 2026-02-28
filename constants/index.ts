@@ -54,7 +54,7 @@ export const splitText = (text: string) => {
 	return text.split(/(?=[A-Z])/).join(" ");
 };
 
-export const CompanyName = "EBBERGEN TECHNOLOGIES LIMITED";
+export const CompanyName = "EBBERGEN TECHNOLOGIES";
 
 export const statusStyles: { [key: string]: string } = {
 	completed: "text-emerald-500",

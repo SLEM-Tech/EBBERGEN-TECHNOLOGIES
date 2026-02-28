@@ -15,7 +15,7 @@ const HelpConnectSection = () => {
 						className='w-full sm:max-w-xs rounded-xl px-6 py-7 text-white'
 						style={{ background: PRIMARY }}
 					>
-						<h3 className='text-lg font-bold mb-4'>Need Help ?</h3>
+						<h3 className='text-lg font-semibold mb-4'>Need Help ?</h3>
 						<div className='space-y-2 mb-5'>
 							<div className='flex items-center gap-2 text-sm'>
 								<MdMailOutline className='text-base flex-shrink-0' />
@@ -36,31 +36,31 @@ const HelpConnectSection = () => {
 
 					{/* Connect with Us */}
 					<div className='flex flex-col items-center gap-4'>
-						<h3 className='text-base font-bold text-gray-900'>Connect with Us</h3>
+						<h3 className='text-base font-normal text-gray-900'>Connect with Us</h3>
 						<div className='flex items-center gap-5'>
 							<a
-								href='#'
-								className='w-10 h-10 rounded-full flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg'
-								style={{ background: PRIMARY }}
+								href='/'
+								className='w-10 h-10 rounded-xl flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg shadow-md'
+								style={{ background: "white" }}
 								aria-label='Instagram'
 							>
-								<BiLogoInstagram />
+								<BiLogoInstagram className="text-shop text-2xl" />
 							</a>
 							<a
-								href='#'
-								className='w-10 h-10 rounded-full flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg'
-								style={{ background: PRIMARY }}
+								href='/'
+								className='w-10 h-10 rounded-xl flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg shadow-md'
+								style={{ background: "white" }}
 								aria-label='Facebook'
 							>
-								<BiLogoFacebook />
+								<BiLogoFacebook className="text-shop text-2xl" />
 							</a>
 							<a
-								href='#'
-								className='w-10 h-10 rounded-full flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg'
-								style={{ background: PRIMARY }}
+								href='/'
+								className='w-10 h-10 rounded-xl flex items-center justify-center text-white transition-opacity hover:opacity-80 text-lg shadow-md'
+								style={{ background: "white" }}
 								aria-label='Twitter'
 							>
-								<BiLogoTwitter />
+								<BiLogoTwitter className="text-shop text-2xl" />
 							</a>
 						</div>
 					</div>

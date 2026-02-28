@@ -11,11 +11,6 @@ const AppLayout = ({ children, className }: AppLayoutProps) => {
 	return (
 		<main className={`relative`}>
 			<Header />
-			{/*
-			  pt offsets the fixed header:
-			  mobile  ≈ 120 px  (logo row + search row)
-			  desktop ≈ 68 px   (single-bar header)
-			*/}
 			<div className={`min-h-screen pt-[120px] slg:pt-[68px] ${className}`}>
 				{children}
 			</div>

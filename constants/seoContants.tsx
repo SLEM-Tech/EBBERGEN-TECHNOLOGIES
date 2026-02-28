@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 
 // 1. Core Configuration Constants
-export const SITE_NAME = "Qualteva";
+export const SITE_NAME = "EBBERGEN TECHNOLOGIES";
 export const SITE_URL =
 	process.env.NEXT_PUBLIC_SITE_URL || "https://krestlogic.com";
-export const TWITTER_HANDLE = "@krestlogic";
+export const TWITTER_HANDLE = "@ebbergentech";
 
 interface SEOConfig {
 	title: string;
@@ -19,9 +19,9 @@ export const SEODATA: Record<string, SEOConfig> = {
 	default: {
 		title: `${SITE_NAME} | Your Trusted Electronics & Tech Marketplace`,
 		description:
-			"Qualteva provides quality tech accessories, electronics, and home appliances delivered nationwide at the best prices.",
+			"EBBERGEN TECHNOLOGIES provides quality tech accessories, electronics, and home appliances delivered nationwide at the best prices.",
 		keywords: [
-			"Qualteva",
+			"EBBERGEN TECHNOLOGIES",
 			"Electronics Nigeria",
 			"Tech Accessories",
 			"Online Shopping Nigeria",
@@ -34,7 +34,7 @@ export const SEODATA: Record<string, SEOConfig> = {
 	home: {
 		title: `${SITE_NAME} | Shop Electronics, Gadgets & More`,
 		description:
-			"Shop at Qualteva for the best deals on electronics, gadgets, phones, tablets, and home appliances delivered to your doorstep.",
+			"Shop at EBBERGEN TECHNOLOGIES for the best deals on electronics, gadgets, phones, tablets, and home appliances delivered to your doorstep.",
 		keywords: [
 			"Buy Electronics Online",
 			"Gadgets Nigeria",
@@ -72,7 +72,7 @@ export const SEODATA: Record<string, SEOConfig> = {
 	consultation: {
 		title: `Contact Us | Get Support at ${SITE_NAME}`,
 		description:
-			"Need help? Contact our support team at Qualteva for assistance with your orders and inquiries.",
+			"Need help? Contact our support team at EBBERGEN TECHNOLOGIES for assistance with your orders and inquiries.",
 		keywords: [
 			"Customer Support",
 			"Order Help",
@@ -83,27 +83,27 @@ export const SEODATA: Record<string, SEOConfig> = {
 	login: {
 		title: `Login | ${SITE_NAME}`,
 		description:
-			"Log in to your Qualteva account to track your orders, manage your profile, and shop your favourite products.",
+			"Log in to your EBBERGEN TECHNOLOGIES account to track your orders, manage your profile, and shop your favourite products.",
 		keywords: [
 			"Login",
 			"Account Access",
-			"Qualteva login",
+			"EBBERGEN TECHNOLOGIES login",
 		],
 	},
 	register: {
 		title: `Create Account | Join ${SITE_NAME}`,
 		description:
-			"Create an account on Qualteva to start shopping quality electronics and tech accessories delivered nationwide.",
+			"Create an account on EBBERGEN TECHNOLOGIES to start shopping quality electronics and tech accessories delivered nationwide.",
 		keywords: [
 			"Register",
 			"Create Account",
-			"Join Qualteva",
+			"Join EBBERGEN TECHNOLOGIES",
 		],
 	},
 	user_dashboard: {
 		title: `My Dashboard | ${SITE_NAME}`,
 		description:
-			"View your orders, track deliveries, and manage your account on Qualteva.",
+			"View your orders, track deliveries, and manage your account on EBBERGEN TECHNOLOGIES.",
 		keywords: [
 			"Order tracking",
 			"My orders",

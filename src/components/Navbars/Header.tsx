@@ -157,9 +157,6 @@ const Header = () => {
 											}`}
 										>
 											{label}
-											{label === "Products" && (
-												<SlArrowDown className='inline ml-1 text-[8px]' />
-											)}
 										</Link>
 									);
 								})}

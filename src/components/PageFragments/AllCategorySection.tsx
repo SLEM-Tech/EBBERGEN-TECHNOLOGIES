@@ -6,6 +6,7 @@ import { useCategories } from "../lib/woocommerce";
 import { convertToSlug } from "@constants";
 import { useDispatch } from "react-redux";
 import { updateCategorySlugId } from "../config/features/subCategoryId";
+import { LuTag } from "react-icons/lu";
 
 const PRIMARY = "#38CB89";
 
@@ -124,17 +125,19 @@ const HeroSlider = () => {
 					className='absolute bottom-6 right-4 sm:right-8 z-20 flex items-center gap-2 pl-3 pr-2 py-2 rounded-lg text-xs text-white shadow-lg'
 					style={{ background: PRIMARY, maxWidth: 220 }}
 				>
-					<span className='text-[18px]'>🛒</span>
+					<span className='text-[18px]'>
+						<LuTag className="text-black"/>
+					</span>
 					<div className='flex-1'>
-						<p className='font-bold text-[11px] leading-tight'>30% off storewide</p>
-						<p className='text-[10px] opacity-80'>Limited time!</p>
+						<p className='font-bold text-[11px] leading-tight text-black'>30% off storewide, Limited time!</p>
+						{/* <p className='text-[10px] opacity-80'>Limited time!</p> */}
 						<Link href='/category' className='text-[10px] font-semibold underline'>
 							Shop Now →
 						</Link>
 					</div>
 					<button
 						onClick={() => setShowBanner(false)}
-						className='text-white/70 hover:text-white text-sm ml-1 flex-shrink-0'
+						className='text-black/70 hover:text-black text-sm ml-1 flex-shrink-0'
 					>
 						✕
 					</button>

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Unbounded } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 // Styles
 import "swiper/css";
@@ -13,7 +13,7 @@ import "@styles/globals.css";
 import AppProvider from "@src/components/config/AppProvider";
 import { SEODATA, SITE_NAME, SITE_URL } from "@constants/seoContants";
 
-const unbounded = Unbounded({
+const poppins = Poppins({
 	subsets: ["latin"],
 	weight: ["300", "400", "500", "600", "700", "800", "900"],
 	display: "swap",
@@ -103,7 +103,7 @@ export default function RootLayout({
 	return (
 		<html lang='en' className='scroll-smooth'>
 			<body
-				className={`${unbounded.className} w-full min-h-screen antialiased bg-white text-slate-900`}
+				className={`${poppins.className} w-full min-h-screen antialiased bg-white text-slate-900`}
 			>
 				<AppProvider>
 					{/* Main Content */}
